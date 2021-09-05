@@ -1,10 +1,17 @@
 {
   "compilerOptions": {
     "baseUrl": "src",
+    "jsxImportSource": "@emotion/react",
     "paths": {
-      "~/components/*": ["components/*"],
-      "~/styles/*": ["styles/*"],
-      "~/public/*": ["../public/*"]
+      "~/components/*": [
+        "components/*"
+      ],
+      "~/styles/*": [
+        "styles/*"
+      ],
+      "~/public/*": [
+        "../public/*"
+      ]
     },
     "target": "es5",
     "lib": [
@@ -21,7 +28,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": false,
+    "isolatedModules": true,
     "jsx": "preserve"
   },
   "include": [

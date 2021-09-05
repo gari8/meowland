@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Top() {
   return (
     <div>
       <p>aaa</p>

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index Top 1`] = `
+<DocumentFragment>
+  <div>
+    <p>
+      aaa
+    </p>
+  </div>
+</DocumentFragment>
+`;
